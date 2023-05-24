@@ -95,12 +95,32 @@ a:hover {
   }
 }
 
+.fz-48-32 {
+  font-size: 48px;
+}
+
+@media (max-width: 992px) {
+  .fz-48-32 {
+    font-size: 32px;
+  }
+}
+
+.fz-20 {
+  font-size: 20px;
+}
+
 .p-80-0 {
   padding: 80px 0;
 }
 
 .p-32-0 {
   padding: 32px 0;
+}
+
+@media (max-width: 992px) {
+  .p-lg-120-0 {
+    padding: 120px 0;
+  }
 }
 
 .mr-80 {
@@ -111,8 +131,20 @@ a:hover {
   margin-right: 20px;
 }
 
+.mr-16 {
+  margin-right: 16px;
+}
+
 .mr-12 {
   margin-right: 12px;
+}
+
+.mb-40-32 {
+  margin-bottom: 40px;
+}
+
+.mb-80-40 {
+  margin-bottom: 80px;
 }
 
 @media (max-width: 992px) {
@@ -122,10 +154,22 @@ a:hover {
   .mb-lg-36 {
     margin-bottom: 36px;
   }
+  .mb-40-32 {
+    margin-bottom: 32px;
+  }
+  .mb-80-40 {
+    margin-bottom: 40px;
+  }
 }
 
 .logo {
   width: 245px;
+}
+
+.btn-p {
+  padding: 20px 40px;
+  border: 1px solid #ffffff;
+  border-radius: 16px;
 }
 
 .bg-black {
@@ -188,5 +232,13 @@ a:hover {
 
 .to-top:hover {
   opacity: 0.8;
+}
+
+@media (max-width: 992px) {
+  .start-content {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 224px;
+  }
 }
 /*# sourceMappingURL=all.css.map */

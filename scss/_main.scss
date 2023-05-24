@@ -2,6 +2,12 @@
   width: 245px;
 }
 
+.btn-p{
+  padding: 20px 40px;
+  border: 1px solid #ffffff;
+  border-radius: 16px;
+}
+
 .bg-black {
   background-color: #020202;
 }
@@ -56,4 +62,12 @@
 
 .to-top:hover {
   opacity: 0.8;
+}
+
+@media (max-width: 992px) {
+  .start-content {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 224px;
+  }
 }
