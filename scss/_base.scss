@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #020202;
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  color: #ffffff;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+a {
+    display: block;
+    text-decoration: none;
+  }
+  
+a:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,36 @@
+.logo {
+    width: 245px;
+  }
+
+.bg-black{
+    background-color: #020202;
+  }
+.navbar{
+    border-bottom: 1px solid #ffffff;
+}
+.navbar-collapse-list {
+    display: none; /* 在電腦版時不顯示 */
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    min-height: calc(100vh - 81px); /* 佔滿整個瀏覽器高度扣掉 navbar 高度 */
+    background-color: #000000;
+    border-top: 1px solid #ffffff;
+  }
+  
+  .navbar-collapse-list a {
+    font-size: 80px;
+    line-height: 1.2;
+    margin: 4px 0;
+  }
+  .navbar a {
+    color: #ffffff;
+    font-weight: 700;
+  }
+@media (max-width: 992px) {
+    .navbar-collapse-list.show {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
