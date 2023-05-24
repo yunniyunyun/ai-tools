@@ -12,18 +12,19 @@
     display: none; /* 在電腦版時不顯示 */
     position: absolute;
     top: 100%;
+    left: 0;
     width: 100%;
     min-height: calc(100vh - 81px); /* 佔滿整個瀏覽器高度扣掉 navbar 高度 */
     background-color: #000000;
+    z-index: 10;
     border-top: 1px solid #ffffff;
   }
   
-  .navbar-collapse-list a {
+  .navbar-collapse-list a{
     font-size: 80px;
-    line-height: 1.2;
     margin: 4px 0;
   }
-  .navbar a {
+  .navbar a{
     color: #ffffff;
     font-weight: 700;
   }
@@ -34,3 +35,18 @@
       justify-content: center;
     }
   }
+
+.footer-content{
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  }
+
+.to-top{
+    top: 32px;
+    right: 0;
+    color: #ffffff !important;
+    cursor: pointer;
+}
+.to-top:hover{
+  opacity: 0.8;
+}
