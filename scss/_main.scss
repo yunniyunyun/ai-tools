@@ -2,7 +2,7 @@
   width: 245px;
 }
 
-.btn-p{
+.btn-p {
   padding: 20px 40px;
   border: 1px solid #ffffff;
   border-radius: 16px;
@@ -48,25 +48,79 @@
   }
 }
 
-.title{
+.title {
   margin-top: 40px;
   height: 100vh;
   position: relative;
 }
-.motin{
+
+@media (max-width: 576px) {
+  .title {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+
+.motin {
   position: absolute;
   bottom: 0;
   right: 0;
 }
 
+// section 2: start
+.serve-title {
+  width: 414px;
+}
+
+@media (max-width: 576px) {
+  .serve-title {
+    width: 100%;
+  }
+}
+
+.serve-content {
+  max-width: 856px;
+}
+
 @media (max-width: 992px) {
-  .title{
+  .serve-content {
+    max-width: 100%;
+  }
+}
+
+.serve-list li {
+  border: 1px solid #525252;
+  border-radius: 16px;
+  width: calc((100% - 48px)/3);
+}
+
+.serve-list li+li {
+  margin-left: 24px;
+}
+
+@media (max-width: 992px) {
+  .serve-list li {
+    width: 100%;
+  }
+
+  .serve-list li+li {
+    margin-left: 0px;
+    margin-top: 12px;
+  }
+}
+
+// section 2: end
+
+@media (max-width: 992px) {
+  .title {
     height: 811px;
   }
-  .title-lg{
+
+  .title-lg {
     max-width: 252px;
   }
-  .motin{
+
+  .motin {
     top: 614px;
     right: 0;
   }
