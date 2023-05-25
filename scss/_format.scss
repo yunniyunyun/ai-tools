@@ -1,8 +1,9 @@
-.h2{
+.h2 {
     font-size: 120px;
     line-height: 1.2;
     font-weight: 900;
 }
+
 .h3 {
     font-size: 80px;
     line-height: 1.2;
@@ -10,34 +11,64 @@
 }
 
 @media (max-width: 992px) {
-    .h3, .h2 {
+
+    .h3,
+    .h2 {
         font-size: 48px;
     }
-    
+
 }
-.fz-32{
+
+.fz-32 {
     font-size: 32px;
 }
-.fz-16{
+
+.fz-20 {
+    font-size: 20px;
+}
+
+.fz-16 {
     font-size: 16px;
 }
-.fz-48-32{
+
+.fz-14 {
+    font-size: 14px;
+}
+
+.fz-48-32 {
     font-size: 48px;
 }
-.fz-32-20{
+
+.fz-32-20 {
     font-size: 32px;
 }
+
 @media (max-width: 992px) {
     .fz-48-32 {
         font-size: 32px;
     }
-    .fz-32-20{
+
+    .fz-32-20 {
         font-size: 20px;
     }
 }
-.fz-20{
-    font-size: 20px;
+
+.w-700 {
+    font-weight: 700;
 }
+
+.lh-21 {
+    line-height: 21px;
+}
+
+.lh-24 {
+    line-height: 24px;
+}
+
+.p-40 {
+    padding: 40px;
+}
+
 .p-80-40 {
     padding: 80px 40px;
 }
@@ -55,6 +86,7 @@
         padding: 120px 0;
     }
 }
+
 .mr-80 {
     margin-right: 80px;
 }
@@ -71,23 +103,31 @@
     margin-right: 12px;
 }
 
-.mb-40{
+.mb-40 {
     margin-bottom: 40px;
 }
 
-.mb-20{
+.mb-20 {
     margin-bottom: 20px;
 }
 
-.mb-40-32{
+.mb-04 {
+    margin-bottom: 4px;
+}
+
+.mb-40-32 {
     margin-bottom: 40px;
 }
 
-.mb-80-40{
+.mb-80-40 {
     margin-bottom: 80px;
 }
 
-.mb-160-120{
+.mb-160-120 {
+    margin-bottom: 160px;
+}
+
+.mb-160-48 {
     margin-bottom: 160px;
 }
 
@@ -104,15 +144,19 @@
         margin-bottom: 24px;
     }
 
-    .mb-40-32{
+    .mb-40-32 {
         margin-bottom: 32px;
     }
 
-    .mb-80-40{
+    .mb-80-40 {
         margin-bottom: 40px;
     }
 
-    .mb-160-120{
+    .mb-160-48 {
+        margin-bottom: 48px;
+    }
+
+    .mb-160-120 {
         margin-bottom: 120px;
     }
 }
