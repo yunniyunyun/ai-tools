@@ -201,6 +201,10 @@ a:hover {
   margin-bottom: 40px;
 }
 
+.mb-80-24 {
+  margin-bottom: 80px;
+}
+
 .mb-80-40 {
   margin-bottom: 80px;
 }
@@ -225,6 +229,9 @@ a:hover {
   }
   .mb-40-32 {
     margin-bottom: 32px;
+  }
+  .mb-80-24 {
+    margin-bottom: 24px;
   }
   .mb-80-40 {
     margin-bottom: 40px;
@@ -350,6 +357,115 @@ a:hover {
     margin-left: 0px;
     margin-top: 12px;
   }
+}
+
+.enterprise-list {
+  overflow: hidden;
+  position: relative;
+  max-width: 1296px;
+  height: 40px;
+}
+
+.enterprise-list-1 li {
+  position: absolute;
+  top: 0;
+}
+
+.enterprise-list-1 li:nth-child(2) {
+  left: -62px;
+}
+
+.enterprise-list-1 li:nth-child(3) {
+  left: 118px;
+}
+
+.enterprise-list-1 li:nth-child(4) {
+  left: 298px;
+}
+
+.enterprise-list-1 li:nth-child(5) {
+  left: 478px;
+}
+
+.enterprise-list-1 li:nth-child(6) {
+  left: 658px;
+}
+
+.enterprise-list-1 li:nth-child(7) {
+  left: 838px;
+}
+
+.enterprise-list-1 li:nth-child(8) {
+  left: 1018px;
+}
+
+.enterprise-list-1 li:nth-child(9) {
+  left: 1198px;
+}
+
+.enterprise-list-2 li {
+  position: absolute;
+  top: 0;
+}
+
+.enterprise-list-2 li:nth-child(2) {
+  left: 16px;
+}
+
+.enterprise-list-2 li:nth-child(3) {
+  left: 196px;
+}
+
+.enterprise-list-2 li:nth-child(4) {
+  left: 376px;
+}
+
+.enterprise-list-2 li:nth-child(5) {
+  left: 556px;
+}
+
+.enterprise-list-2 li:nth-child(6) {
+  left: 736px;
+}
+
+.enterprise-list-2 li:nth-child(7) {
+  left: 916px;
+}
+
+.enterprise-list-2 li:nth-child(8) {
+  left: 1096px;
+}
+
+.enterprise-bg-l,
+.enterprise-bg-r {
+  position: absolute;
+  width: 196px;
+  height: 40px;
+  top: 0;
+  z-index: 5;
+  background: -webkit-gradient(linear, left top, right top, from(#000000), color-stop(11.79%, rgba(0, 0, 0, 0.991615)), color-stop(21.38%, rgba(0, 0, 0, 0.967585)), color-stop(29.12%, rgba(0, 0, 0, 0.9296)), color-stop(35.34%, rgba(0, 0, 0, 0.879348)), color-stop(40.37%, rgba(0, 0, 0, 0.818519)), color-stop(44.56%, rgba(0, 0, 0, 0.7488)), color-stop(48.24%, rgba(0, 0, 0, 0.671881)), color-stop(51.76%, rgba(0, 0, 0, 0.589452)), color-stop(55.44%, rgba(0, 0, 0, 0.5032)), color-stop(59.63%, rgba(0, 0, 0, 0.414815)), color-stop(64.66%, rgba(0, 0, 0, 0.325985)), color-stop(70.88%, rgba(0, 0, 0, 0.2384)), color-stop(78.62%, rgba(0, 0, 0, 0.153748)), color-stop(88.21%, rgba(0, 0, 0, 0.0737185)), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.991615) 11.79%, rgba(0, 0, 0, 0.967585) 21.38%, rgba(0, 0, 0, 0.9296) 29.12%, rgba(0, 0, 0, 0.879348) 35.34%, rgba(0, 0, 0, 0.818519) 40.37%, rgba(0, 0, 0, 0.7488) 44.56%, rgba(0, 0, 0, 0.671881) 48.24%, rgba(0, 0, 0, 0.589452) 51.76%, rgba(0, 0, 0, 0.5032) 55.44%, rgba(0, 0, 0, 0.414815) 59.63%, rgba(0, 0, 0, 0.325985) 64.66%, rgba(0, 0, 0, 0.2384) 70.88%, rgba(0, 0, 0, 0.153748) 78.62%, rgba(0, 0, 0, 0.0737185) 88.21%, rgba(0, 0, 0, 0) 100%);
+}
+
+.enterprise-bg-l {
+  left: 0;
+}
+
+.enterprise-bg-r {
+  right: 0;
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+.enterprise-list > li + li {
+  margin-left: 20px;
+}
+
+.enterprise-list > li img {
+  width: 160px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .user-list > li {
