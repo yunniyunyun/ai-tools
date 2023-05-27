@@ -6,6 +6,11 @@
   padding: 20px 40px;
   border: 1px solid #ffffff;
   border-radius: 16px;
+  cursor: pointer;
+}
+
+.bd-gray {
+  border: 1px solid #F2F2F2;
 }
 
 .bg-black {
@@ -245,6 +250,135 @@
 
 
 // section 3: end
+
+// section 4: start
+.app {
+  background: #FFFFFF;
+  border-radius: 160px;
+}
+
+@media (max-width: 992px) {
+  .app {
+    border-radius: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .app {
+    border-radius: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .app {
+    border-radius: 20px;
+  }
+}
+
+.search {
+  background: #F2F2F2;
+  border-radius: 16px;
+  color: #919191;
+}
+
+.card {
+  border: 1px solid #F2F2F2;
+  border-radius: 16px !important;
+  overflow: hidden;
+}
+
+.card:hover .card-img-top img {
+  transform: scale(1.2, 1.2);
+}
+
+.card-body,
+.list-group-item {
+  padding: 20px 32px;
+}
+
+.card-img-top img {
+  height: 312px;
+  width: 100%;
+  border-radius: 16px 16px 0px 0px !important;
+  object-fit: cover;
+  transform: scale(1, 1);
+  transition: all 0.3s ease-out;
+}
+
+.card-img-top {
+  overflow: hidden;
+}
+
+.page {
+  text-align: center;
+  line-height: 280%;
+  width: 48px;
+  height: 48px;
+}
+
+.page:hover,
+.page:focus,
+.page.active {
+  background: #020202;
+  border-radius: 16px;
+  color: #fff !important;
+}
+
+.page:hover {
+  background: #919191;
+}
+
+.page-list li+li {
+  margin-left: 4px;
+}
+
+.page-next {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  -webkit-mask: url(../images/icon-page-next.svg);
+  mask: url(../images/icon-page-next.svg);
+  mask-repeat: no-repeat;
+  mask-position: 50% 50%;
+}
+
+.page-next:hover {
+  background-color: #fff;
+}
+
+.class-list {
+  white-space: nowrap;
+
+  a {
+    color: #919191 !important;
+  }
+
+  li {
+    padding: 8px 16px;
+  }
+
+  li+li {
+    margin-left: 8px;
+  }
+
+  .active {
+    background: #F2F2F2;
+    border-radius: 16px;
+
+    a {
+      color: #020202 !important;
+      font-weight: 700;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .class-list {
+    overflow-x: scroll;
+  }
+}
+
+// section 4: end
 
 @media (max-width: 992px) {
   .title {
