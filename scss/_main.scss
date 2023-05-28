@@ -275,9 +275,22 @@
   }
 }
 
+.search-group{
+  position: relative;
+  input{
+    padding-left: 76px; 
+  }
+}
 .search {
   background: #F2F2F2;
   border-radius: 16px;
+  color: #919191;
+  border: 0px solid #000;
+}
+.search-icon{
+  position: absolute;
+  top: 20px;
+  left: 40px;
   color: #919191;
 }
 
