@@ -7,3 +7,42 @@
     max-width: 257px;
   }
 }
+
+.qa-list {
+  li {
+    width: 856px;
+    font-size: 20px;
+    a {
+      border: 1px solid #525252;
+      border-radius: 16px;
+      padding: 20px 45px;
+    }
+  }
+
+  li+li{
+    margin-top: 16px;
+  }
+
+  li:hover a {
+    border: 1px solid #FFFFFF;
+  }
+
+  p.show{
+    display: block !important;
+  }
+  p{
+    font-size: 14px;
+  }
+}
+
+.hide-icon {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .qa-list {
+    li{
+      width: 100%;
+    }
+  }
+}

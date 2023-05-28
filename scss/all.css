@@ -208,6 +208,10 @@ a:hover {
   margin-right: 80px;
 }
 
+.mr-25 {
+  margin-right: 25px;
+}
+
 .mr-20 {
   margin-right: 20px;
 }
@@ -226,6 +230,10 @@ a:hover {
 
 .mb-48 {
   margin-bottom: 48px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
 }
 
 .mb-20 {
@@ -309,6 +317,10 @@ a:hover {
   .mb-160-120 {
     margin-bottom: 120px;
   }
+}
+
+.mt-12 {
+  margin-top: 12px;
 }
 
 .logo {
@@ -761,6 +773,43 @@ a:hover {
 @media (max-width: 992px) {
   .pricing-content {
     max-width: 257px;
+  }
+}
+
+.qa-list li {
+  width: 856px;
+  font-size: 20px;
+}
+
+.qa-list li a {
+  border: 1px solid #525252;
+  border-radius: 16px;
+  padding: 20px 45px;
+}
+
+.qa-list li + li {
+  margin-top: 16px;
+}
+
+.qa-list li:hover a {
+  border: 1px solid #FFFFFF;
+}
+
+.qa-list p.show {
+  display: block !important;
+}
+
+.qa-list p {
+  font-size: 14px;
+}
+
+.hide-icon {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .qa-list li {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=all.css.map */
