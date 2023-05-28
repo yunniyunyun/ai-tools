@@ -18,7 +18,8 @@
     }
 
 }
-.c-000{
+
+.c-000 {
     color: #000 !important;
 }
 
@@ -28,7 +29,7 @@
 
 @media (max-width: 992px) {
 
-    .fz-48-32{
+    .fz-48-32 {
         font-size: 32px;
     }
 
@@ -59,6 +60,10 @@
     font-size: 32px;
 }
 
+.fz-32-16 {
+    font-size: 32px;
+}
+
 @media (max-width: 992px) {
     .fz-48-32 {
         font-size: 32px;
@@ -70,6 +75,10 @@
 
     .fz-32-20 {
         font-size: 20px;
+    }
+
+    .fz-32-16 {
+        font-size: 16px;
     }
 }
 
@@ -92,11 +101,13 @@
 .p-40 {
     padding: 40px;
 }
-.p-160-80{
+
+.p-160-80 {
     padding: 160px 0;
 }
-@media (max-width: 992px){
-    .p-160-80{
+
+@media (max-width: 992px) {
+    .p-160-80 {
         padding: 80px 0;
     }
 }
@@ -251,6 +262,7 @@
         margin-bottom: 120px;
     }
 }
-.mt-12{
+
+.mt-12 {
     margin-top: 12px;
 }
