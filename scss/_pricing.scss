@@ -1,0 +1,9 @@
+.pricing-content {
+  max-width: 636px;
+}
+
+@media (max-width: 992px) {
+  .pricing-content {
+    max-width: 257px;
+  }
+}

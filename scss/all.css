@@ -132,6 +132,10 @@ a:hover {
   font-size: 48px;
 }
 
+.fz-48-28 {
+  font-size: 48px;
+}
+
 .fz-32-20 {
   font-size: 32px;
 }
@@ -139,6 +143,9 @@ a:hover {
 @media (max-width: 992px) {
   .fz-48-32 {
     font-size: 32px;
+  }
+  .fz-48-28 {
+    font-size: 28px;
   }
   .fz-32-20 {
     font-size: 20px;
@@ -253,6 +260,10 @@ a:hover {
   margin-bottom: 80px;
 }
 
+.mb-80-64 {
+  margin-bottom: 80px;
+}
+
 .mb-160-120 {
   margin-bottom: 160px;
 }
@@ -288,6 +299,9 @@ a:hover {
   }
   .mb-80-40 {
     margin-bottom: 40px;
+  }
+  .mb-80-64 {
+    margin-bottom: 64px;
   }
   .mb-160-48 {
     margin-bottom: 48px;
@@ -374,6 +388,10 @@ a:hover {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+.motin-pricing {
+  left: 0;
 }
 
 .serve-title {
@@ -733,6 +751,16 @@ a:hover {
     margin-right: auto;
     margin-left: auto;
     max-width: 224px;
+  }
+}
+
+.pricing-content {
+  max-width: 636px;
+}
+
+@media (max-width: 992px) {
+  .pricing-content {
+    max-width: 257px;
   }
 }
 /*# sourceMappingURL=all.css.map */
