@@ -69,11 +69,81 @@
   position: absolute;
   bottom: 0;
   right: 0;
+  overflow: hidden;
 }
 .motin-pricing{
   left: 0;
 }
-
+.motin li{
+  position: relative;
+  width: 180px;
+  height: 180px;
+}
+.motin img{
+  position: absolute;
+  top: 0;
+  animation-duration:4s;
+  animation-iteration-count: infinite;
+}
+.motin li{
+  &:nth-child(1) img{
+    animation-name:motin-js-1;
+  }
+  &:nth-child(2) img{
+    animation-name:motin-js-2;
+  }
+  &:nth-child(3) img{
+    animation-name:motin-js-3;
+  }
+}
+@keyframes motin-js-1{
+  0%{
+    top: 180px;
+  }
+  20%{
+    top: 180px;
+  }
+  45%{
+    top:0px;
+  }
+  75%{
+      top:0px;
+  }
+  100%{
+    top:-200px;
+  }
+}
+@keyframes motin-js-2{
+  0%{
+    top: 180px;
+  }
+  10%{
+    top: 180px;
+  }
+  45%{
+    top:0px;
+  }
+  65%{
+      top:0px;
+  }
+  100%{
+    top:-200px;
+  }
+}
+@keyframes motin-js-3{
+  0%{
+      top: 180px;
+  }
+  40%{
+    top:0px;
+  }
+  55%{
+      top:0px;
+  }
+  100%{
+    top:-200px;
+  }
+}
 // section 2: start
 .serve-title {
   width: 414px;
