@@ -338,6 +338,10 @@ a:hover {
   margin-top: 12px;
 }
 
+.mt-16 {
+  margin-top: 16px;
+}
+
 .logo {
   width: 245px;
 }
