@@ -12,6 +12,7 @@
   li {
     width: 856px;
     font-size: 20px;
+
     a {
       border: 1px solid #525252;
       border-radius: 16px;
@@ -19,7 +20,7 @@
     }
   }
 
-  li+li{
+  li+li {
     margin-top: 16px;
   }
 
@@ -27,10 +28,11 @@
     border: 1px solid #FFFFFF;
   }
 
-  p.show{
+  p.show {
     display: block !important;
   }
-  p{
+
+  p {
     font-size: 14px;
   }
 }
@@ -41,14 +43,61 @@
 
 @media (max-width: 992px) {
   .qa-list {
-    li{
+    li {
       width: 100%;
     }
   }
 }
 
 // section 3 : start
-.use-list li{
+.use-list li {
   border-bottom: 1px solid #525252;
 }
+
 // section 3 : end
+
+// section 2 : start
+.price-list {
+  >li {
+    height: 318px;
+    border: 1px solid #525252;
+    border-radius: 16px;
+    padding: 0;
+    width: 45%;
+  }
+
+  >li:nth-child(even) {
+    margin-left: 24px;
+  }
+}
+
+.price-top ul {
+  list-style: disc;
+
+  li {
+    margin-left: 20px;
+  }
+}
+
+.price-bottom {
+  border-top: 1px solid #525252;
+}
+
+.tokens {
+  color: #525252;
+  font-weight: 400;
+}
+
+@media (max-width: 992px) {
+  .price-list {
+    >li {
+      width: 100%;
+    }
+
+    >li:nth-child(even) {
+      margin-left: 0px;
+    }
+  }
+}
+
+// section 2 : end

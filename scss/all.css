@@ -205,6 +205,10 @@ a:hover {
   padding: 20px 40px;
 }
 
+.p-20-32 {
+  padding: 20px 32px;
+}
+
 @media (max-width: 992px) {
   .p-lg-120-0 {
     padding: 120px 0;
@@ -245,6 +249,10 @@ a:hover {
 
 .mb-20 {
   margin-bottom: 20px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
 }
 
 .mb-04 {
@@ -822,5 +830,43 @@ a:hover {
 
 .use-list li {
   border-bottom: 1px solid #525252;
+}
+
+.price-list > li {
+  height: 318px;
+  border: 1px solid #525252;
+  border-radius: 16px;
+  padding: 0;
+  width: 45%;
+}
+
+.price-list > li:nth-child(even) {
+  margin-left: 24px;
+}
+
+.price-top ul {
+  list-style: disc;
+}
+
+.price-top ul li {
+  margin-left: 20px;
+}
+
+.price-bottom {
+  border-top: 1px solid #525252;
+}
+
+.tokens {
+  color: #525252;
+  font-weight: 400;
+}
+
+@media (max-width: 992px) {
+  .price-list > li {
+    width: 100%;
+  }
+  .price-list > li:nth-child(even) {
+    margin-left: 0px;
+  }
 }
 /*# sourceMappingURL=all.css.map */
