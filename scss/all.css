@@ -810,11 +810,8 @@ a:hover {
   border: 1px solid #FFFFFF;
 }
 
-.qa-list p.show {
-  display: block !important;
-}
-
 .qa-list p {
+  display: none;
   font-size: 14px;
 }
 
@@ -838,6 +835,10 @@ a:hover {
   border-radius: 16px;
   padding: 0;
   width: 45%;
+}
+
+.price-list > li:hover {
+  border: 1px solid #FFFFFF;
 }
 
 .price-list > li:nth-child(even) {
