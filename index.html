@@ -8,6 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./scss/all.css">
   <title>AI工具王</title>
 </head>
@@ -117,68 +118,70 @@
         <li class="enterprise-bg-r"></li>
       </ul>
     </div>
-    <ul class="serve-list d-lg-flex user-list">
-      <li class="p-40">
-        <ul class="d-flex star-list mb-20">
-          <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
-          <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
-          <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
-          <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
-          <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
-        </ul>
-        <p class="mb-20 user-content">非常喜歡 AI工具王 提供的 AI
-          模型租賃服務，使用起來非常方便，而且效果非常好。對於我們公司的業務來說，這個服務非常重要，因為我們需要大量的數據進行分析和預測，AI工具王 提供的 AI 模型能夠幫助我們節省大量時間和成本，實在是太棒了！</p>
-        <div class="d-flex">
-          <div class="user mr-16">
-            <img src="./images/user-1.png" alt="user-1" class="user-1">
+    <div class="swiper mySwiper">
+      <ul class="serve-list d-lg-flex user-list swiper-wrapper">
+        <li class="p-40 swiper-slide">
+          <ul class="d-flex star-list mb-20">
+            <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
+            <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
+            <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
+            <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
+            <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
+          </ul>
+          <p class="mb-20 user-content">非常喜歡 AI工具王 提供的 AI
+            模型租賃服務，使用起來非常方便，而且效果非常好。對於我們公司的業務來說，這個服務非常重要，因為我們需要大量的數據進行分析和預測，AI工具王 提供的 AI 模型能夠幫助我們節省大量時間和成本，實在是太棒了！</p>
+          <div class="d-flex">
+            <div class="user mr-16">
+              <img src="./images/user-1.png" alt="user-1" class="user-1">
+            </div>
+            <div class="user-info">
+              <p class="w-700 lh-24 mb-04">陳小姐</p>
+              <div class="fz-14 lh-21">ABC科技有限公司</div>
+            </div>
           </div>
-          <div class="user-info">
-            <p class="w-700 lh-24 mb-04">陳小姐</p>
-            <div class="fz-14 lh-21">ABC科技有限公司</div>
+        </li>
+        <li class="p-40 swiper-slide">
+          <ul class="d-flex star-list mb-20">
+            <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
+            <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
+            <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
+            <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
+            <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
+          </ul>
+          <p class="mb-20 user-content">作為一家醫療器材公司，我們非常關注人工智能技術的應用，而 AI工具王 提供的 AI 模型租賃服務為我們帶來了很大的幫助。我們使用 AI工具王
+            的模型進行醫學影像分析和預測，這些模型非常精確，能夠幫助我們更好地診斷病情，提高治療效果。感謝 AI工具王 團隊的辛勤工作！</p>
+          <div class="d-flex">
+            <div class="user mr-16">
+              <img src="./images/user-2.png" alt="user-1" class="user-1">
+            </div>
+            <div class="user-info">
+              <p class="w-700 lh-24 mb-04">劉小姐</p>
+              <div class="fz-14 lh-21">XYZ 醫療器材有限公司</div>
+            </div>
           </div>
-        </div>
-      </li>
-      <li class="p-40 d-none d-lg-block">
-        <ul class="d-flex star-list mb-20">
-          <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
-          <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
-          <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
-          <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
-          <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
-        </ul>
-        <p class="mb-20 user-content">作為一家醫療器材公司，我們非常關注人工智能技術的應用，而 AI工具王 提供的 AI 模型租賃服務為我們帶來了很大的幫助。我們使用 AI工具王
-          的模型進行醫學影像分析和預測，這些模型非常精確，能夠幫助我們更好地診斷病情，提高治療效果。感謝 AI工具王 團隊的辛勤工作！</p>
-        <div class="d-flex">
-          <div class="user mr-16">
-            <img src="./images/user-2.png" alt="user-1" class="user-1">
+        </li>
+        <li class="p-40 swiper-slide">
+          <ul class="d-flex star-list mb-20">
+            <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
+            <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
+            <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
+            <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
+            <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
+          </ul>
+          <p class="mb-20 user-content">我們銀行一直在尋找能夠幫助我們提高風險控制和客戶服務的解決方案，而 AI工具王 提供的 AI 模型租賃服務正好滿足了我們的需求。我們使用 AI工具王
+            的模型進行客戶信用評估和詐騙檢測等任務，這些模型非常準確，能夠幫助我們更好地控制風險，提高客戶滿意度。非常感謝 AI工具王 團隊的支持！</p>
+          <div class="d-flex">
+            <div class="user mr-16">
+              <img src="./images/user-3.png" alt="user-1" class="user-1">
+            </div>
+            <div class="user-info">
+              <p class="w-700 lh-24 mb-04">黃先生</p>
+              <div class="fz-14 lh-21">EFG 銀行</div>
+            </div>
           </div>
-          <div class="user-info">
-            <p class="w-700 lh-24 mb-04">劉小姐</p>
-            <div class="fz-14 lh-21">XYZ 醫療器材有限公司</div>
-          </div>
-        </div>
-      </li>
-      <li class="p-40 d-none d-lg-block">
-        <ul class="d-flex star-list mb-20">
-          <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
-          <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
-          <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
-          <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
-          <li><img src="./images/icon-star.svg" alt="star" class="icon-star"></li>
-        </ul>
-        <p class="mb-20 user-content">我們銀行一直在尋找能夠幫助我們提高風險控制和客戶服務的解決方案，而 AI工具王 提供的 AI 模型租賃服務正好滿足了我們的需求。我們使用 AI工具王
-          的模型進行客戶信用評估和詐騙檢測等任務，這些模型非常準確，能夠幫助我們更好地控制風險，提高客戶滿意度。非常感謝 AI工具王 團隊的支持！</p>
-        <div class="d-flex">
-          <div class="user mr-16">
-            <img src="./images/user-3.png" alt="user-1" class="user-1">
-          </div>
-          <div class="user-info">
-            <p class="w-700 lh-24 mb-04">黃先生</p>
-            <div class="fz-14 lh-21">EFG 銀行</div>
-          </div>
-        </div>
-      </li>
-    </ul>
+        </li>
+      </ul>
+    </div>
   </div>
 
   <!-- section 4 -->
@@ -409,7 +412,7 @@
     </div>
   </footer>
 
-
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
     crossorigin="anonymous"></script>
