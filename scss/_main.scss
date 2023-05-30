@@ -185,9 +185,11 @@
     margin-top: 12px;
   }
 
-  .serve-list>li+li.swiper-slide {
-    margin-top: 0px;
-  }
+}
+
+.serve-list>li+li.swiper-slide {
+  margin-top: 0px;
+  margin-left: 0px;
 }
 
 // section 2: end
