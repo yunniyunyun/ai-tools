@@ -19,18 +19,40 @@ $("#scrollToTop").click(function () {
 
 // 開起選單
 $(".dropdown-btn").click(function (e) {
-  $(".dropdown-menu-c").toggleClass("show");
+  $(this).parent().find(".dropdown-menu-c").toggleClass("show");
+  // $(".dropdown-menu-c").toggleClass("show");
 });
 
 // 切換按鈕文字
 $(".new-to-old").click(function (e) {
   e.preventDefault();
-  $(".dropdown-menu-c").toggleClass("show");
+  // $(".dropdown-menu-c").toggleClass("show");
+  $(this).parent().parent().parent().find(".dropdown-menu-c").toggleClass("show");
   $(".dropdown-btnText").text($(".new-to-old").text());
 });
 
 $(".old-to-new").click(function (e) {
   e.preventDefault();
-  $(".dropdown-menu-c").toggleClass("show");
+  // $(".dropdown-menu-c").toggleClass("show");
+  $(this).parent().parent().parent().find(".dropdown-menu-c").toggleClass("show");
   $(".dropdown-btnText").text($(".old-to-new").text());
+});
+
+
+$(".ai-model").click(function (e) {
+  e.preventDefault();
+  $(this).parent().find("span").toggleClass("choose");
+  $(this).parent().siblings().find("span").removeClass("choose");
+});
+
+$(".bar-filter").click(function (e) {
+  e.preventDefault();
+  $(this).parent().addClass("active");
+  $(this).parent().siblings().removeClass("active");
+});
+
+$(".page-item").click(function (e) {
+  e.preventDefault();
+  $(this).parent().addClass("active");
+  $(this).parent().siblings().removeClass("active");
 });

@@ -251,6 +251,10 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.mb-16 {
+  margin-bottom: 16px;
+}
+
 .mb-12 {
   margin-bottom: 12px;
 }
@@ -856,11 +860,20 @@ a:hover {
   height: 48px;
 }
 
+.page-item {
+  color: #000 !important;
+}
+
 .page:hover,
 .page:focus,
 .page.active {
   background: #020202;
   border-radius: 16px;
+}
+
+.page:hover a,
+.page:focus a,
+.page.active a {
   color: #fff !important;
 }
 
@@ -984,6 +997,35 @@ a:hover {
 }
 
 .dropdown-menu-c.show {
+  display: block;
+}
+
+.dropdown-menu-c h5 {
+  padding: 0px 40px 4px 40px;
+  font-size: 12px;
+  color: #919191;
+}
+
+.filter-list {
+  width: 240px;
+  left: 0;
+}
+
+.filter-list > li:nth-child(2) {
+  border-top: 1px solid #F2F2F2;
+  width: 168px;
+  margin-bottom: 16px;
+  margin-left: 40px;
+}
+
+.icon-check {
+  top: 8px;
+  right: 32px;
+  font-size: 16px;
+  display: none;
+}
+
+.icon-check.choose {
   display: block;
 }
 

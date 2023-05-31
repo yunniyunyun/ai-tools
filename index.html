@@ -195,18 +195,81 @@
         <input type="text" class="search p-20-40 w-100" placeholder="輸入關鍵字搜尋">
       </div>
       <div class="d-flex mb-40-16 justify-content-between align-items-center">
-        <div class="btn-p d-inline-flex fz-20 bd-gray">
-          <p class="mr-16 fz-20">篩選</p>
-          <img src="./images/icon-filter-alt.svg" alt="filter" class="icon-filter">
+        <div class="position-relative">
+          <div class="btn-p d-inline-flex fz-20 bd-gray dropdown-btn">
+            <p class="mr-16 fz-20">篩選</p>
+            <img src="./images/icon-filter-alt.svg" alt="filter" class="icon-filter">
+          </div>
+          <ul class="dropdown-menu-c position-absolute filter-list">
+            <li class="mb-16">
+              <h5 class="mb-8">AI 模型</h5>
+              <ul>
+                <li class="position-relative">
+                  <a href="#" class="ai-model">所有模型</a>
+                  <span href="#" class="icon-check position-absolute material-icons">check</span>
+                </li>
+                <li class="position-relative">
+                  <a href="#" class="ai-model">卡卡</a>
+                  <span href="#" class="icon-check position-absolute material-icons">check</span>
+                </li>
+                <li class="position-relative">
+                  <a href="#" class="ai-model">杰杰</a>
+                  <span href="#" class="icon-check position-absolute material-icons">check</span>
+                </li>
+                <li class="position-relative">
+                  <a href="#" class="ai-model">琪琪</a>
+                  <span href="#" class="icon-check position-absolute material-icons">check</span>
+                </li>
+                <li class="position-relative">
+                  <a href="#" class="ai-model">昊昊</a>
+                  <span href="#" class="icon-check position-absolute material-icons">check</span>
+                </li>
+              </ul>
+            </li>
+            <li></li>
+            <li class="mb-8">
+              <h5 class="mb-8">類型</h5>
+              <ul>
+                <li class="position-relative">
+                  <a href="#" class="ai-model">所有類型</a>
+                  <span href="#" class="icon-check position-absolute material-icons">check</span>
+                </li>
+                <li class="position-relative">
+                  <a href="#" class="ai-model">篩選項目 1</a>
+                  <span href="#" class="icon-check position-absolute material-icons">check</span>
+                </li>
+                <li class="position-relative">
+                  <a href="#" class="ai-model">篩選項目 2</a>
+                  <span href="#" class="icon-check position-absolute material-icons">check</span>
+                </li>
+                <li class="position-relative">
+                  <a href="#" class="ai-model">篩選項目 3</a>
+                  <span href="#" class="icon-check position-absolute material-icons">check</span>
+                </li>
+                <li class="position-relative">
+                  <a href="#" class="ai-model">篩選項目 4</a>
+                  <span href="#" class="icon-check position-absolute material-icons">check</span>
+                </li>
+                <li class="position-relative">
+                  <a href="#" class="ai-model">篩選項目 5</a>
+                  <span href="#" class="icon-check position-absolute material-icons">check</span>
+                </li>
+                <li class="position-relative">
+                  <a href="#" class="ai-model">篩選項目 6</a>
+                  <span href="#" class="icon-check position-absolute material-icons">check</span>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
         <ul class="d-none d-lg-flex class-list fz-16">
-          <li class="active"><a href="#">全部</a></li>
-          <li><a href="#">聊天</a></li>
-          <li><a href="#">影像辨識</a></li>
-          <li><a href="#">翻譯</a></li>
-          <li><a href="#">行銷</a></li>
-          <li><a href="#">客服</a></li>
-          <li><a href="#">生產力</a></li>
+          <li class="active"><a href="#" class="bar-filter">全部</a></li>
+          <li><a href="#" class="bar-filter">聊天</a></li>
+          <li><a href="#" class="bar-filter">影像辨識</a></li>
+          <li><a href="#" class="bar-filter">翻譯</a></li>
+          <li><a href="#" class="bar-filter">行銷</a></li>
+          <li><a href="#" class="bar-filter">客服</a></li>
+          <li><a href="#" class="bar-filter">生產力</a></li>
         </ul>
         <div class="position-relative">
           <div class="btn-p d-inline-flex fz-20 bd-gray dropdown-btn">
@@ -224,13 +287,13 @@
         </div>
       </div>
       <ul class="d-lg-none d-flex class-list fz-16 mb-48 justify-content-center">
-        <li class="active"><a href="#">全部</a></li>
-        <li><a href="#">聊天</a></li>
-        <li><a href="#">影像辨識</a></li>
-        <li><a href="#">翻譯</a></li>
-        <li><a href="#">行銷</a></li>
-        <li><a href="#">客服</a></li>
-        <li><a href="#">生產力</a></li>
+        <li class="active"><a href="#" class="bar-filter">全部</a></li>
+        <li><a href="#" class="bar-filter">聊天</a></li>
+        <li><a href="#" class="bar-filter">影像辨識</a></li>
+        <li><a href="#" class="bar-filter">翻譯</a></li>
+        <li><a href="#" class="bar-filter">行銷</a></li>
+        <li><a href="#" class="bar-filter">客服</a></li>
+        <li><a href="#" class="bar-filter">生產力</a></li>
       </ul>
 
       <ul class="row row-cols-1 row-cols-md-2 row-cols-xl-3 gx-0 gy-3 g-md-3 mb-40-32">
@@ -370,13 +433,13 @@
       </ul>
 
       <ul class="d-flex page-list justify-content-end">
-        <li class="page active">1</li>
-        <li class="page">2</li>
-        <li class="page">3</li>
-        <li class="page">4</li>
-        <li class="page">5</li>
+        <li class="page active"><a href="#" class="page-item">1</a></li>
+        <li class="page"><a href="#" class="page-item">2</a></li>
+        <li class="page"><a href="#" class="page-item">3</a></li>
+        <li class="page"><a href="#" class="page-item">4</a></li>
+        <li class="page"><a href="#" class="page-item">5</a></li>
         <li class="page">
-          <div class="page-next"></div>
+          <a href="#" class="page-next"></a>
         </li>
       </ul>
 
