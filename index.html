@@ -208,10 +208,19 @@
           <li><a href="#">客服</a></li>
           <li><a href="#">生產力</a></li>
         </ul>
-
-        <div class="btn-p d-inline-flex fz-20 bd-gray">
-          <p class="mr-16 fz-20">由新到舊</p>
-          <img src="./images/icon-chevron-down.svg" alt="chevron-down" class="icon-chevron-down">
+        <div class="position-relative">
+          <div class="btn-p d-inline-flex fz-20 bd-gray dropdown-btn">
+            <p class="mr-16 fz-20 dropdown-btnText">由新到舊</p>
+            <img src="./images/icon-chevron-down.svg" alt="chevron-down" class="icon-chevron-down">
+          </div>
+          <ul class="dropdown-menu-c position-absolute">
+            <li class="mb-8">
+              <a href="#" class="new-to-old">由新到舊</a>
+            </li>
+            <li>
+              <a href="#" class="old-to-new">由舊到新</a>
+            </li>
+          </ul>
         </div>
       </div>
       <ul class="d-lg-none d-flex class-list fz-16 mb-48 justify-content-center">

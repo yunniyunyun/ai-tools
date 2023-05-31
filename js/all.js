@@ -15,3 +15,22 @@ $("#scrollToTop").click(function () {
     500
   );
 });
+
+
+// 開起選單
+$(".dropdown-btn").click(function (e) {
+  $(".dropdown-menu-c").toggleClass("show");
+});
+
+// 切換按鈕文字
+$(".new-to-old").click(function (e) {
+  e.preventDefault();
+  $(".dropdown-menu-c").toggleClass("show");
+  $(".dropdown-btnText").text($(".new-to-old").text());
+});
+
+$(".old-to-new").click(function (e) {
+  e.preventDefault();
+  $(".dropdown-menu-c").toggleClass("show");
+  $(".dropdown-btnText").text($(".old-to-new").text());
+});
